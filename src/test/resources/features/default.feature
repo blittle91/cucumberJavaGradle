@@ -2,11 +2,12 @@
 Feature: A sample test name that must be unique
   A comment that should hopefully be pushed into X-Ray, too.
 
-  @TCM-34
-  Scenario: One more test
+  @id:1000
+  Scenario: Sorry, one more test.
     Given 1 + 1 = 2
     Then this scenario is true
 
-  Scenario: Another test
+  @id:222
+  Scenario: Another nonsense test title
     Given 1 + 1 = 2
     Then this scenario is true
