@@ -6,3 +6,7 @@ Feature: A sample test name that must be unique
   Scenario: One more test
     Given 1 + 1 = 2
     Then this scenario is true
+
+  Scenario: Another test
+    Given 1 + 1 = 2
+    Then this scenario is true

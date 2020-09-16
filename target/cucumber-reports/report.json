@@ -1,0 +1,65 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-16T12:14:13.419Z",
+        "line": 6,
+        "name": "One more test",
+        "description": "",
+        "id": "a-sample-test-name-that-must-be-unique;one-more-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1504000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "1 + 1 \u003d 2",
+            "match": {
+              "location": "cucumber.stepDefs.one_plus_one_equals_two()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1465000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "this scenario is true",
+            "match": {
+              "location": "cucumber.stepDefs.this_scenario_is_true()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@anotherFeatureTag"
+          },
+          {
+            "name": "@TCM-34"
+          }
+        ]
+      }
+    ],
+    "name": "A sample test name that must be unique",
+    "description": "  A comment that should hopefully be pushed into X-Ray, too.",
+    "id": "a-sample-test-name-that-must-be-unique",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/default.feature",
+    "tags": [
+      {
+        "name": "@anotherFeatureTag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
