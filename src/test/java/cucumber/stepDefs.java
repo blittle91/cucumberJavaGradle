@@ -19,4 +19,9 @@ public class stepDefs {
         assertEquals(2, total);
     }
 
+    @Given("{int} and {int} = 2")
+    public void headTails(int Head, int Tails) {
+        int total = Head + Head;
+        assertEquals(Tails, total);
+    }
 }

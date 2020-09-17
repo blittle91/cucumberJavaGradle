@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "project": {
+      "id": "10402"
+    },
+    "summary": "Test Execution",
+    "issuetype": {
+      "id": "20903"
+    },
+    "components" : [],
+    "customfield_41007" : [
+      "UAT"
+    ]
+  }
+}

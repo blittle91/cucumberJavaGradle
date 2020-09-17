@@ -3,20 +3,102 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-09-16T12:14:13.419Z",
-        "line": 6,
-        "name": "One more test",
+        "start_timestamp": "2020-09-17T08:52:26.543Z",
+        "line": 12,
+        "name": "Another unique test nameeee",
         "description": "",
-        "id": "a-sample-test-name-that-must-be-unique;one-more-test",
+        "id": "a-sample-test-name-that-must-be-unique;another-unique-test-nameeee;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5542000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "1 and 2 \u003d 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 0
+                },
+                {
+                  "val": "2",
+                  "offset": 6
+                }
+              ],
+              "location": "cucumber.stepDefs.headTails(int,int)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@anotherFeatureTag"
+          },
+          {
+            "name": "@TCM-44"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T08:52:26.599Z",
+        "line": 13,
+        "name": "Another unique test nameeee",
+        "description": "",
+        "id": "a-sample-test-name-that-must-be-unique;another-unique-test-nameeee;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 205000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "2 and 4 \u003d 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 0
+                },
+                {
+                  "val": "4",
+                  "offset": 6
+                }
+              ],
+              "location": "cucumber.stepDefs.headTails(int,int)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@anotherFeatureTag"
+          },
+          {
+            "name": "@TCM-44"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T08:52:26.602Z",
+        "line": 16,
+        "name": "test unique unique unique another",
+        "description": "",
+        "id": "a-sample-test-name-that-must-be-unique;test-unique-unique-unique-another",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1504000,
+              "duration": 90000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 17,
             "name": "1 + 1 \u003d 2",
             "match": {
               "location": "cucumber.stepDefs.one_plus_one_equals_two()"
@@ -25,10 +107,10 @@
           },
           {
             "result": {
-              "duration": 1465000,
+              "duration": 36000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 18,
             "name": "this scenario is true",
             "match": {
               "location": "cucumber.stepDefs.this_scenario_is_true()"
@@ -41,7 +123,50 @@
             "name": "@anotherFeatureTag"
           },
           {
-            "name": "@TCM-34"
+            "name": "@TCM-45"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-17T08:52:26.604Z",
+        "line": 21,
+        "name": "Another unique unique unique test",
+        "description": "",
+        "id": "a-sample-test-name-that-must-be-unique;another-unique-unique-unique-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "1 + 1 \u003d 2",
+            "match": {
+              "location": "cucumber.stepDefs.one_plus_one_equals_two()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "this scenario is true",
+            "match": {
+              "location": "cucumber.stepDefs.this_scenario_is_true()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@anotherFeatureTag"
+          },
+          {
+            "name": "@TCM-46"
           }
         ]
       }
