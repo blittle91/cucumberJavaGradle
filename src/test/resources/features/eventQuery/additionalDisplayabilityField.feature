@@ -9,9 +9,9 @@ Feature: Include the displayability of each event on the event query
     Given <Head> and <Tails> = 2
 
     Examples:
-      | Head  | Tails |
-      | 1     | 2     |
-      | 2     | 4     |
+      | Head | Tails |
+      | 1    | 2     |
+      | 2    | 4     |
 
   @TCM-52
   Scenario: test unique unique unique another
@@ -24,11 +24,16 @@ Feature: Include the displayability of each event on the event query
     Then this scenario is true
 
   @TCM-66
-    Scenario: A very meaningful name
+  Scenario: A very meaningful name
     Given 1 + 1 = 2
     Then this scenario is true
 
   @TCM-67
-    Scenario: Another very meaningful name
-      Given 1 + 1 = 2
-      Then this scenario is true
+  Scenario: Another very meaningful name
+    Given 1 + 1 = 2
+    Then this scenario is true
+
+  @TCM-69
+  Scenario: A scenario within your feature file
+    Given 1 + 1 = 2
+    Then this scenario is true
