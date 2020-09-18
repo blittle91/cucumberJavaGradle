@@ -37,3 +37,7 @@ Feature: Include the displayability of each event on the event query
   Scenario: A scenario within your feature file
     Given 1 + 1 = 2
     Then this scenario is true
+
+  Scenario: Another scenario within my feature file
+    Given 1 + 1 = 2
+    Then this scenario is true
