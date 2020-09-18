@@ -38,6 +38,7 @@ Feature: Include the displayability of each event on the event query
     Given 1 + 1 = 2
     Then this scenario is true
 
+  @TCM-71
   Scenario: Another scenario within my feature file
     Given 1 + 1 = 2
     Then this scenario is true
