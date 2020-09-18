@@ -1,19 +1,19 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-17T08:52:26.543Z",
+        "start_timestamp": "2020-09-17T15:16:41.958Z",
         "line": 12,
-        "name": "Another unique test nameeee",
+        "name": "Another unique test name",
         "description": "",
-        "id": "a-sample-test-name-that-must-be-unique;another-unique-test-nameeee;;2",
+        "id": "include-the-displayability-of-each-event-on-the-event-query;another-unique-test-name;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 5542000,
+              "duration": 5097000,
               "status": "passed"
             },
             "line": 8,
@@ -36,25 +36,22 @@
         ],
         "tags": [
           {
-            "name": "@anotherFeatureTag"
-          },
-          {
-            "name": "@TCM-44"
+            "name": "@TCM-51"
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-17T08:52:26.599Z",
+        "start_timestamp": "2020-09-17T15:16:42.013Z",
         "line": 13,
-        "name": "Another unique test nameeee",
+        "name": "Another unique test name",
         "description": "",
-        "id": "a-sample-test-name-that-must-be-unique;another-unique-test-nameeee;;3",
+        "id": "include-the-displayability-of-each-event-on-the-event-query;another-unique-test-name;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 205000,
+              "duration": 113000,
               "status": "passed"
             },
             "line": 8,
@@ -77,25 +74,22 @@
         ],
         "tags": [
           {
-            "name": "@anotherFeatureTag"
-          },
-          {
-            "name": "@TCM-44"
+            "name": "@TCM-51"
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-17T08:52:26.602Z",
+        "start_timestamp": "2020-09-17T15:16:42.015Z",
         "line": 16,
         "name": "test unique unique unique another",
         "description": "",
-        "id": "a-sample-test-name-that-must-be-unique;test-unique-unique-unique-another",
+        "id": "include-the-displayability-of-each-event-on-the-event-query;test-unique-unique-unique-another",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 90000,
+              "duration": 68000,
               "status": "passed"
             },
             "line": 17,
@@ -120,25 +114,22 @@
         ],
         "tags": [
           {
-            "name": "@anotherFeatureTag"
-          },
-          {
-            "name": "@TCM-45"
+            "name": "@TCM-52"
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-17T08:52:26.604Z",
+        "start_timestamp": "2020-09-17T15:16:42.017Z",
         "line": 21,
         "name": "Another unique unique unique test",
         "description": "",
-        "id": "a-sample-test-name-that-must-be-unique;another-unique-unique-unique-test",
+        "id": "include-the-displayability-of-each-event-on-the-event-query;another-unique-unique-unique-test",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 59000,
+              "duration": 49000,
               "status": "passed"
             },
             "line": 22,
@@ -150,7 +141,7 @@
           },
           {
             "result": {
-              "duration": 42000,
+              "duration": 54000,
               "status": "passed"
             },
             "line": 23,
@@ -163,28 +154,16 @@
         ],
         "tags": [
           {
-            "name": "@anotherFeatureTag"
-          },
-          {
-            "name": "@TCM-46"
+            "name": "@TCM-53"
           }
         ]
       }
     ],
-    "name": "A sample test name that must be unique",
-    "description": "  A comment that should hopefully be pushed into X-Ray, too.",
-    "id": "a-sample-test-name-that-must-be-unique",
+    "name": "Include the displayability of each event on the event query",
+    "description": "  Additional information regarding the feature.",
+    "id": "include-the-displayability-of-each-event-on-the-event-query",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/default.feature",
-    "tags": [
-      {
-        "name": "@anotherFeatureTag",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "uri": "file:src/test/resources/features/eventQuery/additionalDisplayabilityField.feature",
+    "tags": []
   }
 ]

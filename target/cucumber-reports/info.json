@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "project": {
+      "key": "TCM"
+    },
+    "summary": "Test Execution",
+    "issuetype": {
+      "id": "20903"
+    },
+    "components" : [],
+    "environment" : "UAT"
+  }
+}
