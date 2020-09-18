@@ -28,6 +28,7 @@ Feature: Include the displayability of each event on the event query
     Given 1 + 1 = 2
     Then this scenario is true
 
+  @TCM-67
     Scenario: Another very meaningful name
       Given 1 + 1 = 2
       Then this scenario is true
