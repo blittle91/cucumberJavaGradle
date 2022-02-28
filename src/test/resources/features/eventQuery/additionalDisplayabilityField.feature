@@ -23,7 +23,7 @@ Feature: Include the displayability of each event on the event query
     Given 1 + 1 = 2
     Then this scenario is true
 
-  @TCM-66 @ISPT-8386 @anotherTagToAdd
+  @ISPT-8386
   Scenario: A very meaningful name
     Given 1 + 1 = 2
     Then this scenario is true
